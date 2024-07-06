@@ -1,0 +1,30 @@
+/* sm*/
+
+@media(min-width:300px) {}
+
+
+/* md */
+
+@media(min-width:768px) {
+    .slider h3 {
+        width: 55% !important;
+    }
+    .slider .inner {
+        width: 55% !important;
+    }
+}
+
+
+/* lg */
+
+@media(min-width:900px) {}
+
+
+/* xl */
+
+@media(min-width:1280px) {}
+
+
+/* xl */
+
+@media(min-width:1280px) {}

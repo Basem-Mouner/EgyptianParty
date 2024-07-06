@@ -1,0 +1,142 @@
+:root {
+    --main-site-color: rgb(39, 43, 48);
+    --main-bg-custom-color: rgb(39, 40, 43);
+    /*body-font Comfortaa */
+    --main-body-font: "Roboto", sans-serif;
+    /*main-transition-time*/
+    --main-transition-time: 0.5s;
+    /*border obacity*/
+    --border-obacity: rgba(0, 0, 0, 0.303);
+}
+
+
+/* _________________________common______________________ */
+
+body {
+    font-family: var(--main-body-font);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(77, 9, 9, 0.57);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(99, 25, 25);
+    border-radius: 50px;
+}
+
+.side_nav {
+    position: fixed;
+    top: 0;
+    left: -218px;
+    bottom: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.911);
+    a {
+        color: white;
+    }
+}
+
+.side_nav a[href] {
+    padding-right: 70px;
+}
+
+#HOME {
+    background-image: linear-gradient(rgba(237, 57, 57, 0.57), rgba(237, 57, 57, 0.57)), url(../assests/images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.side_nav a:hover {
+    color: rgba(237, 57, 57, 0.57);
+}
+
+.open_nav {
+    cursor: pointer;
+}
+
+.home_content {
+    width: 100%;
+}
+
+.slider h3 {
+    background-color: #d62e34b3;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 33.6px;
+    color: white;
+    width: 85%;
+    cursor: pointer;
+}
+
+.slider .inner {
+    background-color: #cccccc;
+    line-height: 24px;
+    color: #212529d7;
+    width: 85%;
+}
+
+
+/* ___________________________________ */
+
+#COUNT {
+    background-image: linear-gradient(rgba(237, 57, 57, 0.57), rgba(237, 57, 57, 0.57)), url(../assests/images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+
+.details .container>div {
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 15px;
+    min-width: 160px;
+}
+
+.contact_link :nth-child(2) {
+    color: rgba(161, 161, 161, 0.893);
+    span {
+        color: red;
+    }
+}
+
+.links i {
+    color: rgba(161, 161, 161, 0.893);
+    border: 1px solid rgba(161, 161, 161, 0.893);
+    transition: all 1s;
+}
+
+.links i:hover {
+    color: rgb(255, 255, 255);
+    background-color: #d62e33;
+    border: none;
+}
+
+input,
+textarea {
+    outline: none;
+    border: .3px solid rgba(161, 161, 161, 0.826);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+input:focus,
+textarea:focus,
+#btn_form:focus {
+    box-shadow: 0 0 3px lightblue;
+    border: 4px solid lightblue;
+}
+
+#btn_form {
+    background-color: #d62e33;
+}
+
+.word_limit {
+    color: red;
+}
