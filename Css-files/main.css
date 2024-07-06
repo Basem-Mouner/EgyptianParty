@@ -87,7 +87,6 @@ body {
     background-image: linear-gradient(rgba(237, 57, 57, 0.57), rgba(237, 57, 57, 0.57)), url(../assests/images/invitation-2508607__340.jpg);
     background-position: center center;
     background-size: cover;
-    height: 300px;
 }
 
 .details .container>div {
@@ -100,6 +99,13 @@ body {
     color: rgba(161, 161, 161, 0.893);
     span {
         color: red;
+    }
+}
+
+.contact_link :nth-child(3) {
+    color: rgba(161, 161, 161, 0.893);
+    span {
+        color: rgb(59, 172, 247);
     }
 }
 
